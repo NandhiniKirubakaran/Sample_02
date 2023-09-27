@@ -44,12 +44,14 @@
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #ff004f;
+    color: black;
     transform: translate(-5px);
+    color: white;
 }
 .btn.btn2{
     display: inline-block;
-    background:#ff004f;
+    background:black;
+    color: white;
 }
 .contact-right form{
     width: 100%;
@@ -94,7 +96,7 @@ form.btn2{
     margin: 0;
 }
 .footer-icon a:hover{
-    color: #ff004f;
+    color: black;
     transform: translate(-5px);
 }
 .footer-copy{
@@ -107,4 +109,19 @@ form.btn2{
   .pink {
     background: pink;
   }
-  
+  .carousel-item{
+    align-items: center;
+ }
+ .visually-hidden {
+     color: black;
+     font-weight: 600;
+ }
+ /* .carousel-inner{
+     align-items: center;
+ } */
+ .carousel-item img{
+     height: 500px;
+     margin: 0 auto;
+     width: 1180px;
+     padding-top: 20px;
+ }
