@@ -1,9 +1,14 @@
+body {
+    font-family: 'Playfair Display', serif;
+    overflow-x: hidden;
+  }
+
 .gallery-heading{
     padding-left: 100px;
     padding-top: 50px;
 }
 .row{
-   padding: 0 100px 0 100px;
+   padding: 0 100px 50px 100px;
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -14,6 +19,7 @@
 }
 .card img{
     aspect-ratio: 16/9;
+    
 }
 .card-details{
     padding: 0 100px 0 100px;
@@ -120,8 +126,9 @@ form.btn2{
      align-items: center;
  } */
  .carousel-item img{
-     height: 500px;
+     height: 700px;
      margin: 0 auto;
-     width: 1180px;
+     /* width: 1180px; */
+     width: 100%;
      
  }

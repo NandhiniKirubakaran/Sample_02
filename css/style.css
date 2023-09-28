@@ -2,7 +2,7 @@
 /* fonts import */
 @import url("../fonts/octin_sports_rg.ttf");
 body {
-  font-family: "Poppins", sans-serif;
+ font-family: 'Playfair Display', serif;
   color: #0c0c0c;
   background-color: #ffffff;
   overflow-x: hidden;
@@ -128,7 +128,7 @@ h2 {
 .custom_menu-btn.menu_btn-style::before {
   width: 100vh;
   height: 100vh;
-  background-color: #160e0b;
+  background-color: #280101;
   -webkit-transform: scale(5);
           transform: scale(5);
   border-radius: 0;
@@ -280,7 +280,7 @@ a:focus {
 /*end header section*/
 /* slider section */
 .slider_section {
-  min-height: 100vh;
+  min-height: 90vh;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -758,7 +758,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #160e0b;
+  background-color: #280101;
   color: #ffffff;
 }
 
