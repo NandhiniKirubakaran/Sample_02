@@ -1,7 +1,7 @@
 body {
     font-family: 'Playfair Display', serif;
     overflow-x: hidden;
-    background-image: linear-gradient(to left top, rgb(246, 217, 246),rgb(235, 141, 235),rgb(229, 229, 201),rgb(101, 101, 35));
+    background-color: rgb(229, 168, 229);
     color: white;
 }
 
@@ -14,19 +14,21 @@ body {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    
+    padding-bottom: 50px;
 }
 .event-heading{
     padding-left: 100px;
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
 .card img{
-    aspect-ratio: 16/9;
-    border-radius: 20px;
+    width: 333px;
+    height: 300px;
+    object-fit: cover;
 }
-.card-details{
+/* .card-details{
     padding: 0 100px 0 100px;
-}
+} */
+
 .contact-left{
     flex-basis: 35%;
 }
@@ -60,19 +62,19 @@ body {
 .btn.btn2{
     display: inline-block;
     background:#ababab;
-    color: black;
+    color: white;
 }
 .contact-right form{
     width: 100%;
 }
 form input, form textarea{
     width: 100%;
-    border: 0;
+    border-color: #ababab;
     outline: none;
-    background: white;
+    background: rgb(236, 154, 236);
     padding: 15px;
     margin: 15px 0;
-    color: black;
+    color: white;
     font-size: 18px;
     border-radius: 6px;
 }
@@ -129,13 +131,18 @@ form.btn2{
      align-items: center;
  } */
  .carousel-item img{
-     height: 700px;
-     margin: 0 auto;
-     /* width: 1180px; */
-     /* width: 100%; */
-    
- }
+    margin: 0 auto;
+    object-fit: cover;
+    height:600px;
+    width: 1680px;
+}
  .service-title{
     padding-left: 100px;
     padding-top: 50px;
+}
+.service-card{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    
 }

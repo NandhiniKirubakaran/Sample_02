@@ -83,14 +83,20 @@
         <img src="assests/Chruch.jpg" class="d-block" id="slider3" alt="...">
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-      <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
-      <span class="visually-hidden"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-      <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
-      <span class="visually-hidden"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
-    </button>
+    <div style="justify-content: center; display: flex; ">
+      <div>
+        <button class="control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+          <span class="visually-hidden" style="color: #918f8f;" ><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+        </button>
+      </div>
+      <div>
+        <button class="control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+          <span class="visually-hidden" style="color: #918f8f;"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+        </button>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -121,8 +127,8 @@
   <!-- ---------------------------Events-------------------------------- -->
   <div id="events">
     <h3 class="event-heading">Events Details</h3>
-    <div class="card text-center" style="width: 18rem; color: black;  margin: 0 100px 20px 100px; border-radius: 20px;">
-      <img src="assests/gallery-6.jpeg" class="card-img-top" style="height: 180px; padding: 10px; border-radius: 15px;" alt="...">
+    <div class="card text-center" style="width: 18rem; color: black;  margin: 0 100px 20px 100px; border-radius: 20px; background-color: rgb(236, 154, 236);">
+      <img src="assests/gallery-19.jpg" class="card-img-top" style="height: 200px; width: 286px; padding: 10px; border-radius: 15px;" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">Event Date</p>
@@ -132,87 +138,99 @@
 </div>
 
   <!-- ---------------------------Gallery-------------------------------- -->
-<div id="gallery">
-  <h3 class="gallery-heading">Gallery</h3>
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card">
-          <img src="images/b1.jpg" class="card-img-top"  id="gallery1"    alt="...">
+  <div id="gallery">
+    <h3 class="gallery-heading">Gallery</h3>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="assests/studio-1.jpg" class="card-img-top"  alt="...">
+          </div>
         </div>
+        <div class="col">
+          <div class="card">
+            <img src="assests/studio-2.jpg" class="card-img-top" id="gallery2"  alt="...">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assests/studio-3.jpg" class="card-img-top" id="gallery3"  alt="...">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assests/studio-4.jpg" class="card-img-top" id="gallery4"  alt="...">
+          </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="images/b2.jpg" class="card-img-top" id="gallery2"  alt="...">
+          <img src="assests/studio-5.jpg" class="card-img-top" id="gallery5"  alt="...">
         </div>
-      </div>
-      <div class="col">
+    </div>
+    <div class="col">
         <div class="card">
-          <img src="images/client.jpg" class="card-img-top" id="gallery3"  alt="...">
+          <img src="assests/studio-6.jpg" class="card-img-top"  id="gallery6"  alt="...">
         </div>
-      </div>
-      <div class="col">
+    </div>
+    <div class="col">
         <div class="card">
-          <img src="images/o2.jpg" class="card-img-top" id="gallery4"  alt="...">
+          <img src="assests/studio-7.jpg" class="card-img-top" id="gallery7"  alt="...">
         </div>
     </div>
     <div class="col">
       <div class="card">
-        <img src="images/o3.jpg" class="card-img-top" id="gallery5"  alt="...">
+        <img src="assests/studio-8.jpg" class="card-img-top" id="gallery8"  alt="...">
       </div>
-  </div>
-  <div class="col">
-      <div class="card">
-        <img src="images/p1.png" class="card-img-top"  id="gallery6"  alt="...">
-      </div>
-  </div>
-  <div class="col">
-      <div class="card">
-        <img src="assests/gallery-7 (5).jpeg" class="card-img-top" id="gallery7"  alt="...">
-      </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="assests/gallery-7 (6).jpeg" class="card-img-top" id="gallery8"  alt="...">
     </div>
-  </div>
 </div>
 
   <!-- ---------------------------Services-------------------------------- -->
-<div id="services">
-  <h3 class="service-title">Services</h3>
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col">
-      <div class="card" style="color: black;  text-align: center; height: 300px;width: 400px; border-radius: 50px; border-color: #ff004f;">
-        <h4 style="color: #ababab; font-weight: 600; padding-top: 20px;">Content</h4>
-        <div class="card-body">
-          <h6 class="card-title" >Sub content</h6>
-          <p class="card-text" style="font-size:small ;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text" style="font-size:small ;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+  <div id="services">
+    <h3 class="service-title">Services</h3>
+    <div class="service-card" >
+      <div class="col" >
+        <div class="card" style="color: black; text-align: center; height: 300px;width: 300px;  background-color: rgb(236, 154, 236); ">
+          <h4 style="color: #918f8f; font-weight: 600; padding-top: 20px;">Weddings</h4>
+          <div class="card-body">
+            <h1 class="card-title"><i class="fa-solid fa-film"></i></h1>
+            <p class="card-text" style="font-size:small ;">Obviously, as for a wedding photographer, this type of events is my major specialization..</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="color: black; text-align: center; height: 300px;width: 300px;   background-color: rgb(236, 154, 236);">
+          <h4 style="color: #918f8f; font-weight: 600; padding-top: 20px;">Beauty Portraits</h4>
+          <div class="card-body">
+            <h1 class="card-title"><i class="fa-solid fa-film"></i></h1>
+            <p class="card-text" style="font-size:small ;">There’s nothing nicer than having a lot of beautiful, elegant and tasteful portaits of yourself, instantly printed!</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="color: black; text-align: center; height: 300px;width: 300px;   background-color: rgb(236, 154, 236);">
+          <h4 style="color: #918f8f; font-weight: 600; padding-top: 20px;">Engagements</h4>
+          <div class="card-body">
+            <h1 class="card-title"><i class="fa-solid fa-film"></i></h1>
+            <p class="card-text" style="font-size:small ;">Capture the magic of any pre-nuptial or engagement dinner’s occasion, using my argus-eyed camera!</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="color: black; text-align: center; height: 300px;width: 300px;   background-color: rgb(236, 154, 236);">
+          <h4 style="color: #918f8f; font-weight: 600; padding-top: 20px;">Beauty Portraits</h4>
+          <div class="card-body">
+            <h1 class="card-title"><i class="fa-solid fa-film"></i></h1>
+            <p class="card-text" style="font-size:small ;">There’s nothing nicer than having a lot of beautiful, elegant and tasteful portaits of yourself, instantly printed!</p>
+            
+          </div>
         </div>
       </div>
     </div>
-    <div class="col">
-      <div class="card" style="color: black;  text-align: center; height: 300px;width: 400px; border-radius: 50px; border-color: #ff004f;">
-        <h4 style="color: #ababab; font-weight: 600; padding-top: 20px;">Content</h4>
-        <div class="card-body">
-          <h6 class="card-title" >Sub content</h6>
-          <p class="card-text" style="font-size:small ;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text" style="font-size:small ;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="color: black;  text-align: center; height: 300px;width: 400px; border-radius: 50px; border-color: #ff004f;">
-        <h4 style="color: #ababab; font-weight: 600; padding-top: 20px;">Content</h4>
-        <div class="card-body">
-          <h6 class="card-title" >Sub content</h6>
-          <p class="card-text" style="font-size:small ;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text" style="font-size:small ;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
-    
+  
   </div>
+  
 
 </div>
   
