@@ -1,7 +1,7 @@
 body {
     font-family: 'Playfair Display', serif;
     overflow-x: hidden;
-    background-image: linear-gradient(to left top, rgb(246, 217, 246),rgb(236, 109, 236),rgb(239, 239, 125),rgb(101, 101, 35));
+    background-image: linear-gradient(to left top, rgb(246, 217, 246),rgb(235, 141, 235),rgb(229, 229, 201),rgb(101, 101, 35));
     color: white;
 }
 
@@ -132,8 +132,8 @@ form.btn2{
      height: 700px;
      margin: 0 auto;
      /* width: 1180px; */
-     width: 100%;
-     
+     /* width: 100%; */
+    
  }
  .service-title{
     padding-left: 100px;
