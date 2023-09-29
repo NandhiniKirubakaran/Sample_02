@@ -1,7 +1,9 @@
 body {
     font-family: 'Playfair Display', serif;
     overflow-x: hidden;
-  }
+    background-image: linear-gradient(to left top, rgb(246, 217, 246),rgb(236, 109, 236),rgb(239, 239, 125),rgb(101, 101, 35));
+    color: white;
+}
 
 .gallery-heading{
     padding-left: 100px;
@@ -12,6 +14,7 @@ body {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
 }
 .event-heading{
     padding-left: 100px;
@@ -19,7 +22,7 @@ body {
 }
 .card img{
     aspect-ratio: 16/9;
-    
+    border-radius: 20px;
 }
 .card-details{
     padding: 0 100px 0 100px;
@@ -34,7 +37,7 @@ body {
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #ff004f;
+    color: #ababab;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -56,8 +59,8 @@ body {
 }
 .btn.btn2{
     display: inline-block;
-    background:black;
-    color: white;
+    background:#ababab;
+    color: black;
 }
 .contact-right form{
     width: 100%;
@@ -66,10 +69,10 @@ form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
-    background: #262626;
+    background: white;
     padding: 15px;
     margin: 15px 0;
-    color: #fff;
+    color: black;
     font-size: 18px;
     border-radius: 6px;
 }
@@ -132,3 +135,7 @@ form.btn2{
      width: 100%;
      
  }
+ .service-title{
+    padding-left: 100px;
+    padding-top: 50px;
+}
