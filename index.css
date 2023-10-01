@@ -1,8 +1,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-x: hidden;
-    background-color: rgb(229, 168, 229);
-    color: white;
+    background-color: rgb(229, 188, 229);
+    color: rgb(137, 6, 56);;
 }
 
 .gallery-heading{
@@ -39,7 +39,7 @@ body {
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #ababab;
+    color:  rgb(137, 6, 56);;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -50,7 +50,7 @@ body {
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: rgb(141, 153, 140);;
+    color: rgb(137, 6, 56);;
     display: inline-block;
     transition: transform 0.5s;
 }
@@ -61,7 +61,7 @@ body {
 }
 .btn.btn2{
     display: inline-block;
-    background:rgb(141, 153, 140);;
+    background:rgb(137, 6, 56);;
     color: white;
     font-weight: 600;
 }
@@ -75,7 +75,7 @@ form input, form textarea{
     background: white;
     padding: 15px;
     margin: 15px 0;
-    color: rgb(141, 153, 140);
+    color: black;
     font-size: 18px;
     border-radius: 6px;
 }
