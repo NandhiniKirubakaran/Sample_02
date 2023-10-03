@@ -196,6 +196,15 @@ form.btn2{
         padding: 0;
         margin: 0;
     }
+    #gallery .row .col {
+        width: 333px;
+        padding: 0;
+        margin: 0 auto;
+    }
+    #gallery .row .col .card{
+        width: 333px;
+    }
+
     #services {
         padding: 0;
         margin: 0 auto;
