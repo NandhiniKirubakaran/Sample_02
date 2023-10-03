@@ -281,7 +281,7 @@ a:focus {
 /*end header section*/
 /* slider section */
 .slider_section {
-  min-height: 50vh;
+  min-height: 30vh;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -297,7 +297,7 @@ a:focus {
 .slider_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-items: left;
 }
 
 .slider_section .detail-box {
@@ -312,14 +312,14 @@ a:focus {
   font-size: 2rem;
 }
 
-.slider_section .detail-box p {
+/* .slider_section .detail-box p {
   width: 75%;
   margin-top: 15px;
-}
+} */
 
 .slider_section .detail-box .slider-link {
   display: inline-block;
-  padding: 10px 45px;
+  /* padding: 10px 45px; */
   background-color: transparent;
   color: #fd9c6b;
   border-radius: 5px;
