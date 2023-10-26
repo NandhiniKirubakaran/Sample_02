@@ -159,43 +159,50 @@ document.getElementById('result').textContent = cleanedURL;
     <h3 class="gallery-heading">Gallery</h3>
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
-          <div class="card">
-            <img src="" class="card-img-top" id="gallery1" alt="...">
+          <div class="image-container">
+            <img src="" class="card-img-top" id="gallery1" alt="..." onclick="expandImage('gallery1')">
           </div>
         </div>
         <div class="col">
-          <div class="card">
-            <img src="" class="card-img-top" id="gallery2"  alt="...">
+          <div class="image-container">
+            <img src="" class="card-img-top" id="gallery2"  alt="..." onclick="expandImage('gallery2')">
           </div>
         </div>
         <div class="col">
-          <div class="card">
-            <img src="" class="card-img-top" id="gallery3"  alt="...">
+          <div class="image-container">
+            <img src="" class="card-img-top" id="gallery3"  alt="..." onclick="expandImage('gallery3')">
           </div>
         </div>
         <div class="col">
-          <div class="card">
-            <img src="" class="card-img-top" id="gallery4"  alt="...">
+          <div class="image-container">
+            <img src="" class="card-img-top" id="gallery4"  alt="..." onclick="expandImage('gallery4')">
           </div>
       </div>
       <div class="col">
-        <div class="card">
-          <img src="" class="card-img-top" id="gallery5"  alt="...">
+        <div class="image-container">
+          <img src="" class="card-img-top" id="gallery5"  alt="..." onclick="expandImage('gallery5')">
         </div>
     </div>
     <div class="col">
-        <div class="card">
-          <img src="" class="card-img-top"  id="gallery6"  alt="...">
+        <div class="image-container">
+          <img src="" class="card-img-top"  id="gallery6"  alt="..." onclick="expandImage('gallery6')">
         </div>
     </div>
     <div class="col">
-        <div class="card">
-          <img src="" class="card-img-top" id="gallery7"  alt="...">
+        <div class="image-container">
+          <img src="" class="card-img-top" id="gallery7"  alt="..." onclick="expandImage('gallery7')">
         </div>
     </div>
     <div class="col">
-      <div class="card">
-        <img src="" class="card-img-top" id="gallery8"  alt="...">
+      <div class="image-container">
+        <img src="" class="card-img-top" id="gallery8"  alt="..." onclick="expandImage('gallery8')">
+      </div>
+      <div id="expanded-image-container" class="expanded-image-container">
+        <img src="" alt="Expanded Image" id="expanded-image">
+        <button type="submit" class="close" onclick="closeExpandedImage()" style="right: 30px; padding-bottom: 600px; position: fixed; outline: none;color: white;">
+          <span>&times;</span>
+          <h6 style="color: white;">Close</h6>
+        </button>
       </div>
     </div>
 </div>

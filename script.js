@@ -31,7 +31,7 @@ window.onload = function() {
     // Display only the website name (domain)
     // document.getElementById('result').textContent = cleanedURL;
 
-fetch(`https://live2-3af8b-default-rtdb.asia-southeast1.firebasedatabase.app/websites/${cleanedURL}.json`)
+fetch(`https://live2-3af8b-default-rtdb.asia-southeast1.firebasedatabase.app/websites/glittery-shortbread-77ca82netlifyapp.json`)
 .then((value)=>value.json())
 .then((data)=>{
     abouttext.innerHTML=data.about_us;
@@ -54,9 +54,29 @@ fetch(`https://live2-3af8b-default-rtdb.asia-southeast1.firebasedatabase.app/web
     icon1.src=data.icon1;
     icon2.src=data.icon2;
     icon3.src=data.icon3;
-
 })
 }
 
+// <---------------------------------------------------------------->
+
+function expandImage(name) {
+    const imageContainer = document.querySelector(".image-container");
+    const expandedImageContainer = document.querySelector(".expanded-image-container");
+    const expandedImage = document.getElementById('expanded-image');
+    let newSrc = document.getElementById(name).src;
+    expandedImage.src = newSrc;
+  
+    imageContainer.style.display = "none";
+    expandedImageContainer.style.display = "flex";
+  }
+  
+  function closeExpandedImage() {
+    const imageContainer = document.querySelector(".image-container");
+    const expandedImageContainer = document.querySelector(".expanded-image-container");
+  
+    imageContainer.style.display = "flex";
+    expandedImageContainer.style.display = "none";
+  }
+  
 
 
